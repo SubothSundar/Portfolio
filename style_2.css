@@ -1,0 +1,169 @@
+body {
+    background-color: #f4f4f4; 
+    font-family: 'Arial', sans-serif;
+    background-image: url('img_web1.jpg');
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px; 
+    border-radius: 0 0 0 50%; 
+}
+
+.container {
+    position: relative;
+}
+
+#home {
+    position: center;
+}
+
+.welcome-title {
+    color: #fff; 
+    background: rgba(51, 51, 51, 0.5); 
+    text-align: center;
+}
+
+.intro-text {
+    color: #fff; 
+    background: rgba(51, 51, 51, 0.5); 
+    text-align: left;
+}nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+article, aside {
+    flex: 1;
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0;
+    border-top: 2px solid #fff;
+}
+
+.container p {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 0.5em;
+    margin: 0;
+    color: #fff; 
+}
+
+.about-background {
+    background-image: url('img_web1.jpg');
+    background-size: cover;
+    color: #fff; 
+}
+#projects {
+    background-color: #f2f2f2; 
+}
+
+
+#projects .container {
+    padding: 20px;
+    width: 80%; 
+    margin: 0 auto; 
+    color: black;
+}
+
+.project {
+    background-color: #fff; 
+    padding: 20px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.project p {
+    color: #000; 
+}
+
+#about {
+    background-color: #f9f9f9; 
+}
+
+
+#about .container {
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#about h2 {
+    color: black; 
+}
+
+#about p {
+    color: black; 
+    line-height: 1.6; 
+}
+
+
+#contact {
+    background-color: #f5f5f5; 
+    padding: 40px 0; 
+}
+
+.contact-intro {
+    font-size: 18px; 
+    color: #333;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list strong {
+    color: #007bff; 
+}
+
+.contact-list a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline; 
+}
+
